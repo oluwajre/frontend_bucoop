@@ -1,0 +1,40 @@
+.taskbar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--white-color);
+    height: 61px;
+}
+
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.profile-bar {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.notification-icon {
+    color: var(--black-color);
+    font-size: 1.2rem;
+}
+
+.profile-icon {
+    color: var(--blue-color);
+    font-size: 2.4rem;
+}
+
+.dropdown-icon {
+    color: var(--black-color);
+}

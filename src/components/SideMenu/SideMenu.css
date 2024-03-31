@@ -1,0 +1,120 @@
+.side-menu {
+  top: 0;
+  left: 0;
+  width: 20%; 
+  min-width: 150px;
+  background-color: #161718ff; 
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.side-menu ul {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.side-menu-list div{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: .3rem;
+  text-align: left;
+  padding: .9rem 0rem .9rem 1rem;
+  color: var(--dark-grey);
+  transition: all 300ms ease-in;
+}
+
+.side-menu-list:hover {
+  background-color: #414040;
+}
+
+.side-menu-list a, svg {
+  color: var(--dark-grey); 
+  transition: all 300ms ease-in;
+}
+
+.side-menu-list:hover a, .side-menu-list:hover svg {
+  color: var(--white-color);
+}
+
+.side-menu-icon:first-child {
+  display: flex;
+  align-items: center;
+}
+
+
+
+#menu-title   {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .5rem;
+  color: var(--white-color);
+  font-weight: 700;
+  line-height: 60px;
+  border-bottom: 1px solid var(--white-color);
+}
+
+.side-menu-logo {
+  display: flex;
+  width: 70px;
+  height: 70px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.side-menu>ul:first-of-type {
+  border-bottom: 1px solid var(--white-color);
+  margin-bottom: 1rem;
+}
+
+/* .side-menu-list:active #children-list {
+  max-height: 80px;
+  transition: max-height 300ms ease-in;
+} */
+
+/* .side-menu-list.visible #children-list {
+  max-height: 80px;
+}
+
+.side-menu-list.hidden #children-list {
+  max-height: 0;
+  overflow: hidden;
+} */
+
+#children-list.visible {
+  max-height: 80px;
+}
+
+#children-list.hidden {
+  max-height: 0;
+  overflow: hidden;
+}
+
+#children-list {
+  flex-direction: column;
+  align-items: self-start;
+  padding-top: 0;
+  padding-bottom: 0;
+  /* max-height: 0;
+  overflow: hidden; */
+  background-color: #161718ff;
+  color: var(--dark-grey); 
+  transition: max-height 300ms ease-in;
+}
+
+#children-list-div {
+  font-size: .9rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.logout {
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 0;
+}

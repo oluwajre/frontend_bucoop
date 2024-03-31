@@ -1,0 +1,22 @@
+.contact{
+    display: flex;
+    width: 100vw;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 97%; /* Adjust width as needed */
+    margin: 20px;
+  }
+  #message{
+    height: 100px;
+  }
+  input, textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }

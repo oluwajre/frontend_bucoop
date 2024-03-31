@@ -1,0 +1,239 @@
+/* body{
+    overflow-x: hidden;
+} */
+.top-bar, .row{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+.search-input{
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+    border: solid 1px;
+    border-color: lightgrey;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.dashboard-item{
+    background-color: rgba(236, 232, 232, 0.76);
+}
+
+.main-top{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.refresh{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: 30;
+}
+
+h4{
+    font-weight: 30;
+    color: grey;
+}
+h2{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    height: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.banner > button{
+    background-color: #00a3FF;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.table {
+    margin: 20px;
+    height: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.table {
+    width: 97%;
+  }
+  
+  .table table {
+    width: 100%; 
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border-bottom: 1px solid lightgrey; 
+    padding: 8px; 
+    text-align: left; 
+  }
+  
+  .table th {
+    font-weight: bold; 
+  }
+  
+  .status{
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    
+  }
+  .st1{
+    background-color: lightgreen;
+  }
+  .st2{
+    background-color: yellow;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 97%; /* Adjust width as needed */
+    margin: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    width: 100px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  .form-item{
+    display: flex;
+    justify-content: space-between;
+  }
+.form-min{
+    display: flex;
+    flex-direction: column;
+}
+.chart{
+  margin: 20px;
+}
+.wrapp {
+  display: flex;
+  margin-top: 20px;
+}
+
+.wrapp > div {
+  flex: 1;
+  border: 1px none lightgrey; /* Just for visualization */
+  text-align: left; /* Center the text */
+  padding: 20px; /* Adjust padding as needed */
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.reports{
+  margin: 20px;
+}
+
+.rus{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  width: 400px;
+  margin-left: 30px;
+  height: 200px;
+  
+}
+
+.riNum{
+  font-weight: bold;
+}
+.reports-item{
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.row select,
+.row button {
+  width: 150px;
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.row input{
+  margin-bottom: 0;
+  width: 400px;
+}
+.row button{
+  background-color: #00a3FF;
+  color: white;
+}
+.row select{
+  background-color: lightblue;
+}
+.ri-table{
+  margin: 0;
+  width: 100%;
+}
+.date{
+  width: 200px;
+}
+.report-row{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.date {
+  width: 150px;
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}

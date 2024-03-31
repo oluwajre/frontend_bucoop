@@ -1,0 +1,37 @@
+#settings-container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    margin-top: 2rem;
+}
+
+#settings-container>div {
+    width: 48%;
+}
+
+#update-container {
+    max-width: 13rem;
+    margin-top: 1.5rem;
+}
+
+.settings-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    border-bottom: 1px solid gainsboro;
+}
+
+
+#image-container {
+    margin-top: 1rem;
+}
+
+/* .image-preview {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid var(--dark-grey);
+} */

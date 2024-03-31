@@ -1,0 +1,568 @@
+@keyframes animation-31326 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #00a3ffff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    opacity: 0.5;
+    z-index: 5;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+}
+.animationClass-31326 {
+  animation: animation-31326 0.001s linear 0s normal forwards;
+}
+@keyframes animation-I31326_5021289 {
+  from {
+    width: 23.26%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 23.26%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-I31326_5021289 {
+  animation: animation-I31326_5021289 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31317 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+}
+.animationClass-31317 {
+  animation: animation-31317 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+}
+.animationClassBack-31122 {
+  animation: animationBack-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 4;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31122 {
+  animation: animation-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-I31317_5021265 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-I31317_5021265 {
+  animation: animation-I31317_5021265 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClassBack-31123 {
+  animation: animationBack-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31123 {
+  animation: animation-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31336 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+}
+.animationClass-31336 {
+  animation: animation-31336 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+}
+.animationClassBack-31122 {
+  animation: animationBack-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 4;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31122 {
+  animation: animation-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-I31336_5021265 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-I31336_5021265 {
+  animation: animation-I31336_5021265 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClassBack-31123 {
+  animation: animationBack-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31123 {
+  animation: animation-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31346 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+}
+.animationClass-31346 {
+  animation: animation-31346 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+}
+.animationClassBack-31122 {
+  animation: animationBack-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 4;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31122 {
+  animation: animation-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-I31346_5021265 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-I31346_5021265 {
+  animation: animation-I31346_5021265 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClassBack-31123 {
+  animation: animationBack-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31123 {
+  animation: animation-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31356 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+}
+.animationClass-31356 {
+  animation: animation-31356 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+}
+.animationClassBack-31122 {
+  animation: animationBack-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 4;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31122 {
+  animation: animation-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-I31356_5021265 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-I31356_5021265 {
+  animation: animation-I31356_5021265 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClassBack-31123 {
+  animation: animationBack-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31123 {
+  animation: animation-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31366 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+}
+.animationClass-31366 {
+  animation: animation-31366 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #4fa9e2ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #000000ff;
+  }
+}
+.animationClassBack-31122 {
+  animation: animationBack-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31122 {
+  from {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 4;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31122 {
+  animation: animation-31122 0.001s linear 0s normal forwards;
+}
+@keyframes animation-I31366_5021265 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-I31366_5021265 {
+  animation: animation-I31366_5021265 0.001s linear 0s normal forwards;
+}
+@keyframes animationBack-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClassBack-31123 {
+  animation: animationBack-31123 0.001s linear 0s normal forwards;
+}
+@keyframes animation-31123 {
+  from {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.58%;
+    height: 27.5%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-31123 {
+  animation: animation-31123 0.001s linear 0s normal forwards;
+}

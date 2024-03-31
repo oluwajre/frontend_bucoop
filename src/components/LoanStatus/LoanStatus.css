@@ -1,0 +1,39 @@
+#status-section {
+    padding: 1rem 1rem;
+    background: white;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+#status-section>div {
+    padding: .7rem 0;
+    border-bottom: 1px solid #e2e2e2de;
+}
+
+.approved {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c2fcb4;
+    border-radius: 15px;
+    color: #428b4d;
+}
+
+.pending {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fef5c6;
+    border-radius: 15px;
+    color: #f8af27;
+    
+}
+
+.declined {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fccece;
+    border-radius: 15px;
+    color: #984b4b;
+}

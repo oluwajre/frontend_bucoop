@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+#root {
+  text-align: center;
+  color: var(--black-color);
+}
+
+.logo {
+  height: 6em;
+  /* padding: 1.5em; */
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.Toastify__close-button--light {
+  width: 14px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+h1{
+  font-family: "Marko One", serif;
+  font-weight: 400;
+}
+h4{
+  font-weight: 400
+}
+
+
+.landing{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  height: 55px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo img {
+  max-width: 70px;
+}
+
+.navbar-buttons {
+  display: flex;
+  
+}
+.navbar-buttons a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-buttons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.navbar-buttons button:hover {
+  transform: scale(1.1);
+}
+
+.navbar-actions button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: #00A3ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+.navbar-actions a{
+  text-decoration: none;  
+  color: white;
+} */
+
+/* .footer{
+	background-color: white;
+    margin-top: 70px;
+    padding: 70px 0;
+    
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h3{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #00A3ff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+  
+} 
+.footer-col ul li a:hover{
+	color: #00A3ff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: black;
+	background-color: #ffffff;
+}
+
+.footer-col img{
+  width: 300px;
+}
+.f-ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+.f-ul li{
+  margin-right: 15px;
+}
+.footer-col input{
+  width: 300px;
+}
+.footer-col button{
+  width: 70px;
+}
+.footer-col img{
+  max-width: 70px;
+} */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

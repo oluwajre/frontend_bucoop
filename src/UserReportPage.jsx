@@ -1,5 +1,6 @@
 import React from 'react'
-import UserReport from '../../admin/src/components/UserReport/UserReport'
+// import UserReport from '../../admin/src/components/UserReport/UserReport'
+import ReportTwo from './components/reports/report2';
 import SideMenu from './components/SideMenu/SideMenu';
 import Taskbar from './components/Taskbar/Taskbar';
 import { MdDashboard } from "react-icons/md";
@@ -27,7 +28,7 @@ const UserReportPage = () => {
           <SideMenu menuItems={menuItems}/>
           <div className="primary-container">
             <Taskbar />
-            <UserReport />
+            <ReportTwo />
           </div>
         </div>
       )

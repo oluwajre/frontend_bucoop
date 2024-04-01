@@ -451,6 +451,11 @@ h4{
   max-width: 70px;
 }
 
+.terms-list {
+  text-align: left;
+  color: #000000;
+  line-height: 1.5rem;
+}
 
 
 .swal2-backdrop-show.blurry {

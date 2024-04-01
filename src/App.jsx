@@ -12,12 +12,15 @@ import NotificationSettingsPage from './NotificationSettingsPage';
 
 import AdminWithdrawalPage from './AdminWithdrawalPage';
 import AdminDashboardPage from './AdminDashboardPage';
-import AddSubAdminPage from './AddSubAdminPage';
 import AdminSavingsPage from './AdminSavingsPage';
 import AdminReportPage from './AdminReportPage';
 import RegisteredSubAdminPage from './RegisteredSubAdminPage';
 import RegisteredMembersPage from './RegisteredMembersPage';
 import AdminLoanPage from './AdminLoanPage';
+import AdminHelpPage from './AdminHelpPage';
+import AdminSettingsPage from './AdminSettingsPage';
+import AdminLoginSecurityPage from './AdminLoginSecurityPage';
+import AdminNotificationSettingsPage from './AdminNotificationSettingsPage';
 
 import UserDashboardPage from './UserDashboardPage';
 import UserReportPage from './UserReportPage';
@@ -74,11 +77,14 @@ function App() {
         <Route path="/subadminregistration" element={<RegisteredSubAdminPage />} />
         <Route path="/registersubadmin" element={<AdminDashboardPage />} />
         <Route path="/registeredmembers" element={<RegisteredMembersPage />} />
-        <Route path="/addsubadmin" element={<AddSubAdminPage />} />
         <Route path="/adminsavings" element={<AdminSavingsPage />} />
         <Route path="/adminwithdraw" element={<AdminWithdrawalPage />} />
         <Route path="/adminloan" element={<AdminLoanPage />} />
         <Route path="/adminreport" element={<AdminReportPage />} />
+        <Route path="/adminhelp" element={<AdminHelpPage />} />
+        <Route path="/adminsettings" element={<AdminSettingsPage />} />
+        <Route path="/adminloginsecurity" element={<AdminLoginSecurityPage />} />
+        <Route path="/adminnotificationsettings" element={<AdminNotificationSettingsPage />} />
 
         <Route path="/userreport" element={<UserReportPage />} />
         <Route path="/userdashboard" element={<UserDashboardPage />} />

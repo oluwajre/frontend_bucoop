@@ -4,7 +4,7 @@ import { LuRefreshCw } from "react-icons/lu";
 import './NotificationSettings.css'
 import '../Settings/Settings.css'
 
-const NotificationSettings = ({updatedSetting}) => {
+const NotificationSettings = ({updatedSetting, security}) => {
 
     const [notifications, setNotifications] = useState(null);
     // const [errorMessage, setErrorMessage] = useState(null);
@@ -29,9 +29,9 @@ const NotificationSettings = ({updatedSetting}) => {
         </div>
 
         <div className='settings-menu'>
-            <span><Link to="/settings">Account Settings</Link></span>
-            <span><Link to="/loginsecurity">Login & Secuity</Link></span>
-            <span><Link to="/notificationsettings">Notifications</Link></span>
+            <span><Link to={security[0]}>Account Settings</Link></span>
+            <span><Link to={security[1]}>Login & Secuity</Link></span>
+            <span><Link to={security[2]}>Notifications</Link></span>
         </div>
 
         <div className="input-container" id='settings-container'>

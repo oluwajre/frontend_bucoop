@@ -22,6 +22,10 @@ const LoginSecurityPage = () => {
         { label: 'Loan Calculator', link: '/calculator', icon: <BsCalculator /> },
       ];
 
+      const security = [
+        '/settings', '/loginsecurity', '/notificationsettings'
+      ]
+
       const updatedSetting = () => {
         Swal.fire({
             icon: 'success',
@@ -31,13 +35,15 @@ const LoginSecurityPage = () => {
             backdrop: true,
         })
         }
+      
+      
 
       return (
         <div className="screen-container">
           <SideMenu menuItems={menuItems}/>
           <div className="primary-container">
             <Taskbar />
-            <LoginSecurity updatedSetting={updatedSetting}/>
+            <LoginSecurity updatedSetting={updatedSetting} security={security}/>
           </div>
         </div>
         

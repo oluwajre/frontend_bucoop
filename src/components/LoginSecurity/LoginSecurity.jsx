@@ -4,7 +4,7 @@ import { LuRefreshCw } from "react-icons/lu";
 import './LoginSecurity.css'
 import '../Settings/Settings.css'
 
-const LoginSecurity = ({updatedSetting}) => {
+const LoginSecurity = ({updatedSetting, security}) => {
     const [currentpassword, setCurrentpassword] = useState('');
     const [newpassword, setNewpassword] = useState('');
     const [confirmpassword, setConfirmpassword] = useState('');
@@ -42,9 +42,9 @@ const LoginSecurity = ({updatedSetting}) => {
         </div>
 
         <div className='settings-menu'>
-            <span><Link to="/settings">Account Settings</Link></span>
-            <span><Link to="/loginsecurity">Login & Secuity</Link></span>
-            <span><Link to="/notificationsettings">Notifications</Link></span>
+            <span><Link to={security[0]}>Account Settings</Link></span>
+            <span><Link to={security[1]}>Login & Secuity</Link></span>
+            <span><Link to={security[2]}>Notifications</Link></span>
         </div>
 
         <div className="input-container" id='settings-container'>

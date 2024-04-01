@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { LuRefreshCw } from "react-icons/lu";
 import './Settings.css'
 
-const Settings = ({updatedSetting}) => {
+const Settings = ({updatedSetting, security}) => {
     const [fname, setFname] = useState('');
     const [lname, setLname] = useState('');
     const [id, setId] = useState('');
@@ -52,9 +52,9 @@ const Settings = ({updatedSetting}) => {
         </div>
 
         <div className='settings-menu'>
-            <span><Link to="/settings">Account Settings</Link></span>
-            <span><Link to="/loginsecurity">Login & Secuity</Link></span>
-            <span><Link to="/notificationsettings">Notifications</Link></span>
+            <span><Link to={security[0]}>Account Settings</Link></span>
+            <span><Link to={security[1]}>Login & Secuity</Link></span>
+            <span><Link to={security[2]}>Notifications</Link></span>
         </div>
 
         <div className="input-bar" id='image-container'>

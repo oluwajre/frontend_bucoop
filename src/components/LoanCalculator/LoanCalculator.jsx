@@ -25,6 +25,10 @@ const LoanCalculator = ({calculateLoan}) => {
       const handleChangePayback = (event) => {
         setPayback(event.target.value);
       };
+
+      const handleCalculateClick = () => {
+        calculateLoan(amount, term, rate, payback); // Pass only the amount for now
+      };
     
     
   
@@ -100,9 +104,9 @@ const LoanCalculator = ({calculateLoan}) => {
                 <option value="annually">Annually</option>
             </select>
         </div>
-  
+
           <div className="submit-container">
-            <button onClick={calculateLoan}>Calculate</button>
+            <button onClick={handleCalculateClick}>Calculate</button>
           </div>
         </div>
   

@@ -22,6 +22,10 @@ const NotificationSettingsPage = () => {
         { label: 'Loan Calculator', link: '/calculator', icon: <BsCalculator /> },
       ];
 
+      const security = [
+        '/settings', '/loginsecurity', '/notificationsettings'
+      ]
+
       const updatedSetting = () => {
         Swal.fire({
             icon: 'success',
@@ -37,7 +41,7 @@ const NotificationSettingsPage = () => {
           <SideMenu menuItems={menuItems}/>
           <div className="primary-container">
             <Taskbar />
-            <NotificationSettings updatedSetting={updatedSetting}/>
+            <NotificationSettings updatedSetting={updatedSetting} security={security}/>
           </div>
         </div>
         

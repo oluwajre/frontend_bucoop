@@ -1,6 +1,6 @@
 import React from 'react'
 import Dashboard from './components/admin/home'
-import SideMenu from './components/SideMenu/SideMenu';
+import AdminSideMenu from './components/SideMenu/AdminSideMenu';
 import Taskbar from './components/Taskbar/Taskbar';
 import { MdDashboard } from "react-icons/md";
 import { PiHandCoinsFill, PiBankFill } from "react-icons/pi";
@@ -24,7 +24,7 @@ const AdminDashboardPage = () => {
       return (
        
         <div className="screen-container">
-          <SideMenu menuItems={menuItems}/>
+          <AdminSideMenu menuItems={menuItems}/>
           <div className="primary-container">
             <Taskbar />
             <Dashboard />

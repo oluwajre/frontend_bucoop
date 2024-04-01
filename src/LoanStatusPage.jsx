@@ -15,7 +15,7 @@ const LoanStatusPage = () => {
         { label: 'Withdrawal', link: '/withdraw', icon: <BiMoneyWithdraw /> },
         { label: 'Loan', link: '', icon:  <PiBankFill />, children: [
           {miniLabel: 'Apply For Loan', miniLink: '/applyloan', miniIcon:  <PiBankFill />},
-          {miniLabel: 'Check Loan Status', miniLink: '/loan', miniIcon:  <PiBankFill />},
+          {miniLabel: 'Check Loan Status', miniLink: '/loanstatus', miniIcon:  <PiBankFill />},
         ]},
         { label: 'Reports', link: '/userreport', icon: <TbReportSearch /> },
         { label: 'Loan Calculator', link: '/calculator', icon: <BsCalculator /> },

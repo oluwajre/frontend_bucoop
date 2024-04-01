@@ -1,6 +1,6 @@
 import React from 'react'
 import RegisteredMembers from './components/RegisteredMembers/RegisteredMembers'
-import SideMenu from './components/SideMenu/SideMenu';
+import AdminSideMenu from './components/SideMenu/AdminSideMenu';
 import Taskbar from './components/Taskbar/Taskbar';
 import { MdDashboard } from "react-icons/md";
 import { PiHandCoinsFill, PiBankFill } from "react-icons/pi";
@@ -22,7 +22,7 @@ const RegisteredMembersPage = () => {
 
   return (
     <div className="screen-container">
-      <SideMenu menuItems={menuItems}/>
+      <AdminSideMenu menuItems={menuItems}/>
       <div className="primary-container">
         <Taskbar />
         <RegisteredMembers />

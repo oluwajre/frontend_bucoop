@@ -1,13 +1,13 @@
 import React from 'react'
-import Savings from './components/savings/savings'
 import AdminSideMenu from './components/SideMenu/AdminSideMenu';
 import Taskbar from './components/Taskbar/Taskbar';
+import Faq from './components/faq/faq'
 import { MdDashboard } from "react-icons/md";
 import { PiHandCoinsFill, PiBankFill } from "react-icons/pi";
 import { BiMoneyWithdraw } from "react-icons/bi";
 import { TbReportSearch } from "react-icons/tb";
 
-const AdminSavingsPage = () => {
+const AdminHelpPage = () => {
     const menuItems = [
         { label: 'Registrations', link: '', icon:  <MdDashboard />, children: [
             {miniLabel: 'Register Sub-Admin', miniLink: '/registersubadmin', miniIcon:  <MdDashboard />},
@@ -19,17 +19,17 @@ const AdminSavingsPage = () => {
         { label: 'Loans', link: '/adminloan', icon:  <PiBankFill /> },
         { label: 'Reports', link: '/adminreport', icon: <TbReportSearch /> },
       ];
-      
-      return (
-       
-        <div className="screen-container">
-          <AdminSideMenu menuItems={menuItems}/>
-          <div className="primary-container">
+
+  return (
+
+    <div className="screen-container">
+        <AdminSideMenu menuItems={menuItems}/>
+        <div className="primary-container">
             <Taskbar />
-            <Savings />
-          </div>
+            <Faq />
         </div>
-      )
+    </div>
+  )
 }
 
-export default AdminSavingsPage
+export default AdminHelpPage
